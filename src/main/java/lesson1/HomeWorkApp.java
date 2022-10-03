@@ -24,7 +24,7 @@ public class HomeWorkApp {
         int d = 7;
         int s = a + d;
         System.out.println(s);
-        if (s >=0){
+        if (s >=0)  {
             System.out.println("Сумма положительная");
         }
         else {
@@ -33,12 +33,12 @@ public class HomeWorkApp {
     }
 
 
-    private static void printColor() {
+    public static void printColor() {
         int value = 4;
 
         if (value <= 0) {
             System.out.println("Красный");
-        } else if (value > 0 && value <= 100) {
+        } else if(value > 0 && value <= 100) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");
